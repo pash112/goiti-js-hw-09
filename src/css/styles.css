@@ -2,30 +2,33 @@
 @import url('./2-form.css');
 
 body {
-    min-height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/pexels-anntarazevich-6712383.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  font-family: 'Winky Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/pexels-anntarazevich-6712383.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 li {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding: 20px;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px;
 }
 li a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: rgb(19, 18, 18);
-    text-decoration: none;
-    font-size: 20px;
+  display: inline-block;
+  padding: 5px 5px;
+  color: rgb(22, 2, 2);
+  text-decoration: none;
+  font-size: 40px;
 }
