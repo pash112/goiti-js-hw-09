@@ -32,3 +32,6 @@ li a {
   text-decoration: none;
   font-size: 40px;
 }
+li a:hover {
+  color: rgb(255, 0, 242);
+}
